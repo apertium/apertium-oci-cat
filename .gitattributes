@@ -20,17 +20,11 @@
 /ca-oc-supervised.make -text
 /ca-oc-unsupervised.make -text
 /ca-oc.prob -text svneol=unset#unset
-ca-tagger-data/CVS/Entries -text
-ca-tagger-data/CVS/Repository -text
-ca-tagger-data/CVS/Root -text
 ca-tagger-data/README -text
 /configure.ac -text
 /modes.xml -text
 /oc-ca-supervised.make -text
 /oc-ca-unsupervised.make -text
 /oc-ca.prob -text
-oc-tagger-data/CVS/Entries -text
-oc-tagger-data/CVS/Repository -text
-oc-tagger-data/CVS/Root -text
 oc-tagger-data/README -text
 /principal.xsl -text
