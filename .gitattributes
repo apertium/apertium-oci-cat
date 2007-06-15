@@ -6,9 +6,15 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/apertium-oc-ca.ca-oc.t1x -text
+/apertium-oc-ca.ca-oc.t2x -text
+/apertium-oc-ca.ca-oc.t3x -text
 /apertium-oc-ca.ca.dix -text
 /apertium-oc-ca.ca.tsx -text
 /apertium-oc-ca.oc-ca.dix -text
+/apertium-oc-ca.oc-ca.t1x -text
+/apertium-oc-ca.oc-ca.t2x -text
+/apertium-oc-ca.oc-ca.t3x -text
 /apertium-oc-ca.oc.metadix -text
 /apertium-oc-ca.oc.tsx -text
 /apertium-oc-ca.post-ca.dix -text
