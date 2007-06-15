@@ -16,10 +16,12 @@
 /apertium-oc-ca.trules-ca-oc.xml -text
 /apertium-oc-ca.trules-oc-ca.xml -text
 /autogen.sh -text
+/aversion.xsl -text
 /buscaPar.xsl -text
 /ca-oc-supervised.make -text
 /ca-oc-unsupervised.make -text
 /ca-oc.prob -text svneol=unset#unset
+/ca-oc@aran.prob -text svneol=unset#unset
 ca-tagger-data/README -text
 /configure.ac -text
 /modes.xml -text
@@ -27,4 +29,5 @@ ca-tagger-data/README -text
 /oc-ca-unsupervised.make -text
 /oc-ca.prob -text
 oc-tagger-data/README -text
+/oc@aran-ca.prob -text
 /principal.xsl -text
