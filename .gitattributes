@@ -18,6 +18,7 @@
 /apertium-oc-ca.oc-ca.t3x -text
 /apertium-oc-ca.oc.metadix -text
 /apertium-oc-ca.oc.tsx -text
+/apertium-oc-ca.oc@aran.tsx -text
 /apertium-oc-ca.post-ca.dix -text
 /apertium-oc-ca.post-oc.dix -text
 /apertium-oc-ca.trules-ca-oc.xml -text
@@ -26,14 +27,19 @@
 /buscaPar.xsl -text
 /ca-oc-supervised.make -text
 /ca-oc-unsupervised.make -text
+/ca-oc-v3.prob -text svneol=unset#unset
 /ca-oc.prob -text svneol=unset#unset
+/ca-oc@aran-v3.prob -text svneol=unset#unset
 /ca-oc@aran.prob -text svneol=unset#unset
 ca-tagger-data/README -text
 /configure.ac -text
 /modes.xml -text
 /oc-ca-supervised.make -text
 /oc-ca-unsupervised.make -text
+/oc-ca-v3.prob -text
 /oc-ca.prob -text
 oc-tagger-data/README -text
+/oc@aran-ca-unsupervised.make -text
+/oc@aran-ca-v3.prob -text
 /oc@aran-ca.prob -text
 /principal.xsl -text
