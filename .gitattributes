@@ -6,6 +6,7 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/alt.xsl -text
 /apertium-oc-ca.ca-oc.t1x -text
 /apertium-oc-ca.ca-oc.t2x -text
 /apertium-oc-ca.ca-oc.t3x -text
@@ -22,7 +23,6 @@
 /apertium-oc-ca.trules-ca-oc.xml -text
 /apertium-oc-ca.trules-oc-ca.xml -text
 /autogen.sh -text
-/aversion.xsl -text
 /buscaPar.xsl -text
 /ca-oc-supervised.make -text
 /ca-oc-unsupervised.make -text
