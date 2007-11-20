@@ -27,19 +27,19 @@
 /buscaPar.xsl -text
 /ca-oc-supervised.make -text
 /ca-oc-unsupervised.make -text
-/ca-oc-v3.prob -text svneol=unset#unset
+/ca-oc-v2.prob -text svneol=unset#unset
 /ca-oc.prob -text svneol=unset#unset
-/ca-oc@aran-v3.prob -text svneol=unset#unset
+/ca-oc@aran-v2.prob -text svneol=unset#unset
 /ca-oc@aran.prob -text svneol=unset#unset
 ca-tagger-data/README -text
 /configure.ac -text
 /modes.xml -text
 /oc-ca-supervised.make -text
 /oc-ca-unsupervised.make -text
-/oc-ca-v3.prob -text
+/oc-ca-v2.prob -text
 /oc-ca.prob -text
 oc-tagger-data/README -text
 /oc@aran-ca-unsupervised.make -text
-/oc@aran-ca-v3.prob -text
+/oc@aran-ca-v2.prob -text
 /oc@aran-ca.prob -text
 /principal.xsl -text
