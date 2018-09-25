@@ -13645,16 +13645,31 @@
         <par n="S__aneu"/>
       </e>
       
-      <e>
+      <e r="LR">
         <p>
           <l>vés</l>
           <r>anar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
-      
+
       <e>
         <p>
+          <l>ves</l>
+          <r>anar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e r="LR">
+        <p>
           <l>vés</l>
+          <r>anar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r>
+        </p>
+        <par n="S__aclareix"/>
+      </e>
+
+      <e>
+        <p>
+          <l>ves</l>
           <r>anar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r>
         </p>
         <par n="S__aclareix"/>
@@ -15873,7 +15888,7 @@
       </e>
     </pardef>
 
-    <pardef n="don/ar__vblex"> <!-- aquest no el poso al fitxer -->
+    <pardef n="don/ar__vblex">
       
       <e>
         <p>
@@ -16414,6 +16429,43 @@
           <r>ar<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
+
+      <e>
+        <p>
+          <l>a</l>
+          <r>ar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>a</l>
+          <r>ar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r>
+        </p>
+        <par n="S__agafa"/>
+      </e>
+      
+      <e r="LR">
+        <p>
+          <l>es</l>
+          <r>ar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>a</l>
+          <r>ar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e r="LR">
+        <p>
+          <l>es</l>
+          <r>ar<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+
     </pardef>
 
     <pardef n="esglai/ar__vblex">
@@ -18284,14 +18336,14 @@
 
     <pardef n="dón/ar__vblex">
       
-      <e>
+      <e r="LR">
         <p>
           <l>a</l>
           <r>ar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       
-      <e>
+      <e r="LR">
         <p>
           <l>a</l>
           <r>ar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r>
@@ -18299,14 +18351,14 @@
         <par n="S__agafa"/>
       </e>
       
-      <e>
+      <e r="LR">
         <p>
           <l>es</l>
           <r>ar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       
-      <e>
+      <e r="LR">
         <p>
           <l>a</l>
           <r>ar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
@@ -25307,7 +25359,7 @@
         </p>
       </e>
       
-      <e>
+      <e r="LR">
         <p>
           <l>éns</l>
           <r>enir<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
@@ -25316,7 +25368,22 @@
       
       <e>
         <p>
+          <l>ens</l>
+          <r>enir<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+
+      <e r="LR">
+        <p>
           <l>énen</l>
+          <r>enir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>enen</l>
           <r>enir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
@@ -25400,7 +25467,7 @@
     </pardef>
 
 
-	 <pardef n="f/er__vblex"><!-- aquest no el poso al fitxer de paradigmes -->
+	 <pardef n="f/er__vblex">
       
       <e>
         <p>
@@ -25585,6 +25652,13 @@
         </p>
       </e>
       
+      <e r="LR">
+        <p>
+          <l>eu</l>
+          <r>er<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      
       <e>
         <p>
           <l>em</l>
@@ -25658,6 +25732,13 @@
           <r>er<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
+
+      <e r="LR">
+        <p>
+          <l>e</l>
+          <r>er<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
       
       <e>
         <p>
@@ -25675,6 +25756,15 @@
         <par n="S__aclareix"/>
       </e>
       
+      <e r="LR">
+        <p>
+          <l>e</l>
+          <r>er<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r>
+        </p>
+        <par n="S__aclareix"/>
+      </e>
+
+
       <e>
         <p>
           <l>acin</l>
@@ -26225,6 +26315,13 @@
       <e r="LR">
         <p>
           <l>éu</l>
+          <r>er<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+
+      <e r="LR">
+        <p>
+          <l>eu</l>
           <r>er<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
@@ -30297,6 +30394,13 @@
       <e r="LR">
         <p>
           <l>éu</l>
+          <r>eure<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+ 
+     <e r="LR">
+        <p>
+          <l>eu</l>
           <r>eure<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
@@ -70001,7 +70105,7 @@
       </e>
     </pardef>
 
-	 <pardef n="/ser__vbser"><!-- aquest no el poso al fitxer de paradigmes -->
+	 <pardef n="/ser__vbser">
       
       <e>
         <p>
@@ -70027,6 +70131,13 @@
       <e r="LR">
         <p>
           <l>fóra</l>
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e r="LR">
+        <p>
+          <l>fora</l>
           <r>ser<s n="vbser"/><s n="cni"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
@@ -70083,6 +70194,13 @@
       <e r="LR">
         <p>
           <l>fóra</l>
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+
+      <e r="LR">
+        <p>
+          <l>fora</l>
           <r>ser<s n="vbser"/><s n="cni"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
@@ -70391,6 +70509,13 @@
         </p>
       </e>
       
+      <e r="LR">
+        <p>
+          <l>fora</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      
       <e>
         <p>
           <l>fóssiu</l>
@@ -70443,6 +70568,13 @@
       <e r="LR">
         <p>
           <l>fóra</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+
+      <e r="LR">
+        <p>
+          <l>fora</l>
           <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
@@ -70507,9 +70639,16 @@
         </p>
       </e>
       
-      <e>
+      <e r="LR">
         <p>
           <l>sóc</l>
+          <r>ser<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>soc</l>
           <r>ser<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
@@ -71208,9 +71347,13 @@
 <e lm="vés amb compte"><i>vés<b/>amb<b/>compte</i> <par n="a_reveure__ij"/></e>
 <e lm="no t'ho creguis"><i>no<b/>t'ho<b/>creguis</i> <par n="a_reveure__ij"/></e>
 <e lm="no us ho cregueu"><i>no<b/>us<b/>ho<b/>cregueu</i> <par n="a_reveure__ij"/></e>
-<e lm="adéu"><i>adéu</i> <par n="a_reveure__ij"/></e>
+<e lm="adéu" r="LR"><p><l>adéu</l><r>adeu</r></p><par n="a_reveure__ij"/></e>
+<e lm="adéu"><i>adeu</i> <par n="a_reveure__ij"/></e>
+
 <e lm="fins aviat"><i>fins<b/>aviat</i> <par n="a_reveure__ij"/></e>
 <e r="LR" lm="adéu-siau"><i>adéu-siau</i> <par n="a_reveure__ij"/></e>
+<e r="LR" lm="adeu-siau"><p><l>adéu-siau</l><r>adeu-siau</r></p><par n="a_reveure__ij"/></e>
+
 <e lm="passi-ho bé"><i>passi-ho<b/>bé</i> <par n="a_reveure__ij"/></e>
 <e lm="fins demà"><i>fins<b/>demà</i> <par n="a_reveure__ij"/></e>
 <e lm="fins després"><i>fins<b/>després</i> <par n="a_reveure__ij"/></e>
@@ -73713,7 +73856,9 @@
 <e lm="cor"><i>cor</i> <par n="abric__n"/></e>
 	  
 <e lm="Corea"><i>Corea</i> <par n="Afganistan__np"/></e>
-<e lm="coreferent"><i>coreferent</i> <par n="abdominal__adj"/></e>
+
+<e lm="correferent"><i>correferent</i> <par n="abdominal__adj"/></e>
+<e lm="correferent"><p><l>coreferent</l><r>correferent</r></p> <par n="abdominal__adj"/></e>
 	  
 <e lm="Còria"><i>Còria</i> <par n="Afganistan__np"/></e>
 <e lm="Corilha"><i>Corilha</i> <par n="Afganistan__np"/></e>
@@ -76584,8 +76729,8 @@
 	  
 <e lm="infracció"><i>infracci</i> <par n="acci/ó__n"/></e>
 	  
-<e r="LR" lm="infraestructura"><i>infraestructur</i> <par n="abell/a__n"/></e>
-<e lm="infrastructura"><i>infrastructur</i> <par n="abell/a__n"/></e>
+<e r="LR" lm="infrastructura"><p><l>infrastructur</l><r>infraestructura</r></p> <par n="abell/a__n"/></e>
+<e lm="infraestructura"><i>infraestructur</i> <par n="abell/a__n"/></e>
 	  
 <e lm="ingrés"><i>ingr</i> <par n="acc/és__n"/></e>
 	  
@@ -78104,7 +78249,8 @@
 	  
 <e lm="Nepal"><i>Nepal</i> <par n="Afganistan__np"/></e>
 	  
-<e lm="nét"><i>nét</i> <par n="senyor__n"/></e>
+<e lm="nét" r="LR"><p><l>nét</l><r>net</r></p> <par n="senyor__n"/></e>
+<e lm="net"><i>net</i> <par n="senyor__n"/></e>
 	  
 <e lm="neteja"><i>nete</i> <par n="barre/ja__n"/></e>
 	  
@@ -78481,7 +78627,8 @@
 	  
 <e lm="os"><i>os</i> <par n="cos__n"/></e>
 	  
-<e lm="ós"><i>ós</i> <par n="gos__n"/></e>
+<e lm="ós" r="LR"><p><l>ós</l><r>os</r></p> <par n="gos__n"/></e>
+<e lm="os"><i>os</i> <par n="gos__n"/></e>
 	  
 <e lm="Oslo"><i>Oslo</i> <par n="Afganistan__np"/></e>
 	  
@@ -81007,7 +81154,8 @@
 <e lm="telefònic"><i>telefòni</i> <par n="acadèmi/c__adj"/></e>
 <e lm="telemàticament"><i>telemàticament</i> <par n="ahir__adv"/></e>
 <e lm="telemàtic"><i>telemàti</i> <par n="acadèmi/c__adj"/></e>
-<e lm="telesquí"><i>telesquí</i> <par n="abric__n"/></e>
+<e lm="telesquí" r="LR"><p><l>telesquí</l><r>teleesquí</r></p> <par n="abric__n"/></e>
+<e lm="teleesquí" r="LR"><i>teleesquí</i> <par n="abric__n"/></e>
 	  
 <e lm="televisió"><i>televisi</i> <par n="acci/ó__n"/></e>
 	  
@@ -83126,7 +83274,10 @@
 <e lm="respiració"><i>respiraci</i> <par n="acci/ó__n"/></e>
 <e lm="retenció"><i>retenci</i> <par n="acci/ó__n"/></e>
 <e lm="set"><i>set</i> <par n="accessibilitat__n"/></e>
-<e lm="sèu"><i>sèu</i> <par n="abric__n"/></e>
+
+<e lm="sèu" r="LR"><p><l>sèu</l><r>seu</r></p><par n="abric__n"/></e>
+<e lm="seu"><i>seu</i> <par n="abric__n"/></e>
+
 <e lm="sobres"><i>sobres</i> <par n="escombraries__n"/></e>
 <e lm="ulleres"><i>ulleres</i> <par n="escombraries__n"/></e>
 <e lm="verbositat"><i>verbositat</i> <par n="accessibilitat__n"/></e>
@@ -83519,7 +83670,9 @@
 <e lm="desmanyotat"><i>desmanyota</i> <par n="afortuna/t__adj"/></e>
 <e lm="gras"><i>gras</i> <par n="ros__adj"/></e>
 		
-<e lm="rodamón"><i>rodamón</i> <par n="abdominal__adj"/></e>
+<e lm="rodamón" r="LR"><p><l>rodamón</l><r>rodamon</r></p> <par n="abdominal__adj"/></e>
+<e lm="rodamón"><i>rodamon</i> <par n="abdominal__adj"/></e>
+
 <e lm="quadrúpede"><i>quadrúped</i> <par n="abstract/e__adj"/></e>
 <e lm="beneit"><i>beneit</i> <par n="absolut__adj"/></e>
 		
@@ -84521,10 +84674,9 @@
 <e lm="estirar"><i>estir</i> <par n="abander/ar__vblex"/></e>
 	
 <e lm="seure"><i>se</i> <par n="asse/ure__vblex"/></e>
-	
 <e lm="seure"><p><l>sè</l> <r>se</r> </p><par n="assè/ure__vblex"/></e>
-	
 <e lm="seure"><p><l>sé</l> <r>se</r> </p><par n="assé/ure__vblex"/></e>
+
 <e lm="sobreseure"><i>sobrese</i> <par n="asse/ure__vblex"/></e>
 	
 <e lm="sobreseure"><p><l>sobresè</l> <r>sobrese</r> </p><par n="assè/ure__vblex"/></e>
@@ -85873,7 +86025,7 @@
 <e lm="interlineat" a="carmentano"><i>interlineat</i> <par n="abric__n"/></e>
 <e lm="Word" a="carmentano"><i>Word</i> <par n="ABC__np"/></e>
 <e lm="inèdit" a="carmentano"><i>inèdit</i> <par n="absolut__adj"/></e>
-<e lm="europeïsme" a="carmentano"><i>europeïsme</i> <par n="abric__n"/></e>
+<e lm="europeisme" a="carmentano"><i>europeisme</i> <par n="abric__n"/></e>
 <e lm="completament" a="carmentano"><i>completament</i> <par n="ahir__adv"/></e>
 <e lm="voluntariat" a="carmentano"><i>voluntariat</i> <par n="atletisme__n"/></e>
 <e lm="viable" a="carmentano"><i>viable</i> <par n="abdominal__adj"/></e>
@@ -88886,7 +89038,10 @@
 <e lm="excap" a=" mmonge"><i>excap</i> <par n="acompanyant__n"/></e>
 <e lm="Leslie" a=" mmonge"><i>Leslie</i> <par n="Abad__np"/></e>
 <e lm="Kurdistan" a=" mmonge"><i>Kurdistan</i> <par n="Afganistan__np"/></e>
-<e lm="eradicar" a=" mmonge"><i>eradi</i> <par n="abo/car__vblex"/></e>
+
+<e lm="eradicar" a=" mmonge" r="LR"><p><l>eradi</l><r>erradicar</r></p><par n="abo/car__vblex"/></e>
+<e lm="erradicar" a="mmonge"><i>erradi</i> <par n="abo/car__vblex"/></e>
+
 <e lm="crac" a=" mmonge"><i>crac</i> <par n="abric__n"/></e>
 <e lm="Scorsese" a=" mmonge"><i>Scorsese</i> <par n="Abad__np"/></e>
 <e lm="redactor" a=" mmonge"><i>redactor</i> <par n="senyor__n"/></e>
@@ -89108,7 +89263,11 @@
 <e lm="faula" a=" mmonge" c="també es pot dir FAULA"><i>faul</i> <par n="abell/a__n"/></e>
 <e lm="mer" a=" mmonge"><i>mer</i> <par n="absolut__adj"/></e>
 <e lm="formigó" a=" mmonge"><i>formig</i> <par n="aband/ó__n"/></e>
-<e lm="subsòl" a=" mmonge"><i>subsòl</i> <par n="abric__n"/></e>
+
+<e lm="subsòl" a="mmonge" r="LR"><p><l>subsòl</l><r>subsol</r></p><par n="abric__n"/></e>
+<e lm="subsol"><i>subsol</i> <par n="abric__n"/></e>
+
+
 <e r="LR" lm="recolzament" a=" mmonge"><i>recolzament</i> <par n="abric__n"/></e>
 <e lm="esbossar" a=" mmonge"><i>esboss</i> <par n="abander/ar__vblex"/></e>
 <e lm="reafirmar" a=" mmonge"><i>reafirm</i> <par n="abander/ar__vblex"/></e>

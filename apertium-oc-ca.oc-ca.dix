@@ -12,7 +12,7 @@
     <sdef n="al"/>
     <sdef n="atn"/>
     <sdef n="pro"/>
-	 <sdef n="enc"/>
+    <sdef n="enc"/>
     <sdef n="tn"/>
     <sdef n="n"/>
     <sdef n="np"/>
@@ -255,13 +255,13 @@
 <e r="LR" alt="oc">
 			<p>
 				<l>adiu<s n="ij"/></l>
-				<r>adéu<s n="ij"/></r>
+				<r>adeu<s n="ij"/></r>
 			</p>
 		</e>
 <e alt="oc@aran">
 			<p>
 				<l>adiu<s n="ij"/></l>
-				<r>adéu<s n="ij"/></r>
+				<r>adeu<s n="ij"/></r>
 			</p>
 		</e>
 		
@@ -269,13 +269,13 @@
 <e r="LR" alt="oc@aran">
 			<p>
 				<l>adieu<s n="ij"/></l>
-				<r>adéu<s n="ij"/></r>
+				<r>adeu<s n="ij"/></r>
 			</p>
 		</e>
 <e alt="oc">
 			<p>
 				<l>adieu<s n="ij"/></l>
-				<r>adéu<s n="ij"/></r>
+				<r>adeu<s n="ij"/></r>
 			</p>
 		</e>
 <e alt="oc" r="RL">
@@ -300,14 +300,14 @@
 <e r="LR">
 			<p>
 				<l>adishatz<s n="ij"/></l>
-				<r>adéu<s n="ij"/></r>
+				<r>adeu<s n="ij"/></r>
 			</p>
 		</e>
 		
 <e r="RL">
 			<p>
 				<l>adishatz<s n="ij"/></l>
-				<r>adéu-siau<s n="ij"/></r>
+				<r>adeu-siau<s n="ij"/></r>
 			</p>
 		</e>
 		<e>
@@ -29532,8 +29532,12 @@
 </e>
 
 <e>
-	<i>telesquí<s n="n"/></i>
+	<p>
+		<l>telesquí<s n="n"/></l>
+		<r>teleesquí<s n="n"/></r>
+	</p>
 </e>
+
 <e>
 	<i>temple<s n="n"/></i>
 </e>
@@ -33628,7 +33632,7 @@
 		<e>
 			<p>
 				<l>infrastructura<s n="n"/></l>
-				<r>infrastructura<s n="n"/></r>
+				<r>infraestructura<s n="n"/></r>
 			</p>
 		</e>
 		<e>
@@ -33647,17 +33651,10 @@
 <e r="LR">
 			<p>
 				<l>infraestructura<s n="n"/></l>
-				<r>infrastructura<s n="n"/></r>
-			</p>
-		</e>
-		
-<e r="RL">
-			<p>
-				<l>infrastructura<s n="n"/></l>
 				<r>infraestructura<s n="n"/></r>
 			</p>
 		</e>
-		
+				
 		
 
 <e r="LR" alt="oc">
@@ -44237,13 +44234,13 @@
 <e r="LR" alt="oc">
 			<p>
 				<l>arrèhilh<s n="n"/></l>
-				<r>nét<s n="n"/></r>
+				<r>net<s n="n"/></r>
 			</p>
 		</e>
 <e alt="oc@aran">
 			<p>
 				<l>arrèhilh<s n="n"/></l>
-				<r>nét<s n="n"/></r>
+				<r>net<s n="n"/></r>
 			</p>
 		</e>
 		
@@ -44251,20 +44248,20 @@
 <e r="LR" alt="oc@aran">
 			<p>
 				<l>felen<s n="n"/></l>
-				<r>nét<s n="n"/></r>
+				<r>net<s n="n"/></r>
 			</p>
 		</e>
 <e alt="oc">
 			<p>
 				<l>felen<s n="n"/></l>
-				<r>nét<s n="n"/></r>
+				<r>net<s n="n"/></r>
 			</p>
 		</e>
 		
 <e r="LR">
 			<p>
 				<l>rèire-filh<s n="n"/></l>
-				<r>nét<s n="n"/></r>
+				<r>net<s n="n"/></r>
 			</p>
 		</e>
 		<e>
@@ -44372,14 +44369,14 @@
 		<e r="LR">
 			<p>
 				<l>os<s n="n"/></l>
-				<r>ós<s n="n"/></r>
+				<r>os<s n="n"/></r>
 			</p>
 		</e>
 		
 <e>
 			<p>
 				<l>ors<s n="n"/></l>
-				<r>ós<s n="n"/></r>
+				<r>os<s n="n"/></r>
 			</p>
 		</e>
 		<e r="LR">
@@ -54319,21 +54316,21 @@
 <e r="LR">
 			<p>
 				<l>coreferent<s n="adj"/><s n="m"/></l>
-				<r>coreferent<s n="adj"/><s n="mf"/></r>
+				<r>correferent<s n="adj"/><s n="mf"/></r>
 			</p>
 		</e>
 		
 <e r="LR">
 			<p>
 				<l>coreferent<s n="adj"/><s n="f"/></l>
-				<r>coreferent<s n="adj"/><s n="mf"/></r>
+				<r>correferent<s n="adj"/><s n="mf"/></r>
 			</p>
 		</e>
 		
 <e r="RL">
 			<p>
 				<l>coreferent<s n="adj"/><s n="GD"/></l>
-				<r>coreferent<s n="adj"/><s n="mf"/></r>
+				<r>correferent<s n="adj"/><s n="mf"/></r>
 			</p>
 		</e>
 		
@@ -88185,7 +88182,7 @@
 	  <e>
 		  <p>
 			  <l>seu<s n="n"/><s n="f"/></l>
-			  <r>sèu<s n="n"/><s n="m"/></r>
+			  <r>seu<s n="n"/><s n="m"/></r>
 		  </p>
 	  </e>
 	  <e>
@@ -89257,7 +89254,7 @@
 		<e>
 			<p>
 				<l>pòrc-gandièr<s n="adj"/></l>
-				<r>rodamón<s n="adj"/></r>
+				<r>rodamon<s n="adj"/></r>
 			</p>
 		</e>
 		
@@ -105248,7 +105245,7 @@
 <e a="carmentano">
 	<p>
 		<l>europeisme<s n="n"/></l>
-		<r>europeïsme<s n="n"/></r>
+		<r>europeisme<s n="n"/></r>
 	</p>
 </e>
 
@@ -135326,7 +135323,7 @@
 <e a=" mmonge">
 		<p>
 			<l>eradicar<s n="vblex"/></l>
-			<r>eradicar<s n="vblex"/></r>
+			<r>erradicar<s n="vblex"/></r>
 		</p>
 	</e>
 	
@@ -137894,7 +137891,7 @@
 <e a=" mmonge">
 		<p>
 			<l>subsòu<s n="n"/></l>
-			<r>subsòl<s n="n"/></r>
+			<r>subsol<s n="n"/></r>
 		</p>
 	</e>
 	
