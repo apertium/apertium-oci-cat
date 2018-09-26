@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dictionary>
   <alphabet/>
-<!--  <sdefs>
-  </sdefs>-->
-
   <pardefs>
     <pardef n="caracter_general">
       <e>
@@ -2029,6 +2026,20 @@
       </e>
       <e>
         <p>
+          <l><b/><a/>ex-<b/></l>
+          <r>l'ex-</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>ex-<b/></l>
+          <r>l'ex-</r>
+        </p>
+        <par n="consonant"/>
+      </e>
+      <e>
+        <p>
           <l><b/><a/></l>
           <r>la<b/></r>
         </p>
@@ -2900,6 +2911,21 @@
           <r>ho</r>
         </p>
       </e>
+      <e>
+        <p>
+          <l><a/>ex-<b/></l>
+          <r>ex-</r>
+        </p>
+       <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>ex-<b/></l>
+          <r>ex-</r>
+        </p>
+       <par n="consonant"/>
+      </e>
+
   </section>
 
 </dictionary>

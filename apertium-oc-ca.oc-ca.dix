@@ -32579,26 +32579,6 @@
 	</p>
 </e>
 
-<e r="LR">
-	<p>
-		<l>exalcalde<s n="n"/></l>
-		<r>exalcalde<s n="n"/></r>
-	</p>
-</e>
-
-<e r="RL" alt="oc">
-	<p>
-		<l>excònsol<s n="n"/></l>
-		<r>ex-alcalde<s n="n"/></r>
-	</p>
-</e>
-
-<e r="RL" alt="oc@aran">
-	<p>
-		<l>exbaile<s n="n"/></l>
-		<r>ex-alcalde<s n="n"/></r>
-	</p>
-</e>
 
 <e r="LR">
 	<p>
@@ -32608,16 +32588,50 @@
 </e>
 
 
+<e alt="oc@aran">
+	<p>
+		<l>baile<s n="n"/></l>
+		<r>alcalde<s n="n"/></r>
+	</p>
+</e>
+
+<e r="LR" alt="oc@aran">
+	<p>
+		<l>cònsol<s n="n"/></l>
+		<r>alcalde<s n="n"/></r>
+	</p>
+</e>
+
 <e r="LR" alt="oc">
 	<p>
 		<l>baile<s n="n"/></l>
 		<r>alcalde<s n="n"/></r>
 	</p>
 </e>
-<e alt="oc@aran">
+
+<e alt="oc">
 	<p>
-		<l>baile<s n="n"/></l>
+		<l>cònsol<s n="n"/></l>
 		<r>alcalde<s n="n"/></r>
+	</p>
+</e>
+
+
+
+<e r="LR">
+	<p>
+		<l>exalcalde<s n="n"/></l>
+		<r>exalcalde<s n="n"/></r>
+	</p>
+</e>
+
+
+
+
+<e alt="oc">
+	<p>
+		<l>excònsol<s n="n"/></l>
+		<r>exalcalde<s n="n"/></r>
 	</p>
 </e>
 
@@ -32628,6 +32642,7 @@
 		<r>exalcalde<s n="n"/></r>
 	</p>
 </e>
+
 <e alt="oc@aran">
 	<p>
 		<l>exbaile<s n="n"/></l>
@@ -32638,30 +32653,11 @@
 
 <e r="LR" alt="oc@aran">
 	<p>
-		<l>cònsol<s n="n"/></l>
-		<r>alcalde<s n="n"/></r>
-	</p>
-</e>
-<e alt="oc">
-	<p>
-		<l>cònsol<s n="n"/></l>
-		<r>alcalde<s n="n"/></r>
-	</p>
-</e>
-
-
-<e r="LR" alt="oc@aran">
-	<p>
 		<l>excònsol<s n="n"/></l>
 		<r>exalcalde<s n="n"/></r>
 	</p>
 </e>
-<e alt="oc">
-	<p>
-		<l>excònsol<s n="n"/></l>
-		<r>exalcalde<s n="n"/></r>
-	</p>
-</e>
+
 
 <e r="LR">
 	<p>
@@ -139022,14 +139018,14 @@
 <e a=" mmonge">
 		<p>
 			<l>exespia<s n="n"/></l>
-			<r>ex-espia<s n="n"/></r>
+			<r>exespia<s n="n"/></r>
 		</p>
 	</e>
 	
 <e a=" mmonge">
 		<p>
 			<l>exhemna<s n="n"/></l>
-			<r>ex-dona<s n="n"/></r>
+			<r>exdona<s n="n"/></r>
 		</p>
 	</e>
 	<e>

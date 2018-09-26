@@ -71442,8 +71442,6 @@
 	  
 <e lm="exalcalde"><i>exalcalde</i> <par n="alcalde__n"/></e>
 	  
-<e r="LR" lm="ex-alcalde"><i>ex-alcalde</i> <par n="alcalde__n"/></e>
-	  
 <e lm="Alcántara"><i>Alcántara</i> <par n="Abad__np"/></e>
 	  
 <e lm="Alcaraz"><i>Alcaraz</i> <par n="Abad__np"/></e>
@@ -87884,7 +87882,10 @@
 <e lm="ofimàtica" a="mmonge"><i>ofimàti</i> <par n="acústi/ca__n"/></e>
 <e lm="teletreball" a="mmonge"><i>teletreball</i> <par n="abric__n"/></e>
 <e lm="multimèdia" a="mmonge"><i>multimèdia</i> <par n="multimèdia__adj"/></e>
+
 <e lm="ex"><i>ex</i> <par n="multimèdia__adj"/></e>
+<e lm="ex-" r="RL"><p><l><a/>ex-</l><r>ex-</r></p><par n="multimèdia__adj"/></e>
+
 <e lm="macro"><i>macro</i> <par n="multimèdia__adj"/></e>
 <e lm="anti"><i>anti</i> <par n="multimèdia__adj"/></e>
 <e lm="d'ensenyament"><i>d'ensenyament</i> <par n="multimèdia__adj"/></e>
@@ -89379,8 +89380,8 @@
 <e lm="Bachelet" a="carmentano"><i>Bachelet</i> <par n="Abad__np"/></e>
 <e lm="poloni" a=" mmonge"><i>poloni</i> <par n="abric__n"/></e>
 <e lm="Hamburg" a=" mmonge"><i>Hamburg</i> <par n="Afganistan__np"/></e>
-<e lm="ex-espia" a=" mmonge"><i>ex-espi</i> <par n="accionist/a__n"/></e>
-<e lm="ex-dona" a=" mmonge"><i>ex-don</i> <par n="abell/a__n"/></e>
+<e lm="exespia" a=" mmonge"><i>exespi</i> <par n="accionist/a__n"/></e>
+<e lm="exdona" a=" mmonge"><i>exdon</i> <par n="abell/a__n"/></e>
 <e r="LR" lm="enverinar" a=" mmonge"><i>enverin</i> <par n="abander/ar__vblex"/></e>
 <e lm="transvasar" a=" mmonge"><i>transvas</i> <par n="abander/ar__vblex"/></e>
 <e lm="radioactivitat" a=" mmonge"><i>radioactivitat</i> <par n="accessibilitat__n"/></e>
