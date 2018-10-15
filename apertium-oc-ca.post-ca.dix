@@ -2925,6 +2925,48 @@
         </p>
        <par n="consonant"/>
       </e>
+      <e>
+        <p>
+          <l><a/>vice-<b/></l>
+          <r>vice-</r>
+        </p>
+       <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>vice-<b/></l>
+          <r>vice-</r>
+        </p>
+       <par n="consonant"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>anti-<b/></l>
+          <r>anti-</r>
+        </p>
+       <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>anti-<b/></l>
+          <r>anti-</r>
+        </p>
+       <par n="consonant"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>macro-<b/></l>
+          <r>macro-</r>
+        </p>
+       <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>macro-<b/></l>
+          <r>macro-</r>
+        </p>
+       <par n="consonant"/>
+      </e>
 
   </section>
 

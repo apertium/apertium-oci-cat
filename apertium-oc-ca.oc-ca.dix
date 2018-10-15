@@ -79106,6 +79106,9 @@
 	<e>
 		  <i>anti<s n="adj"/></i>
 	  </e>
+	<e>
+		  <i>vice<s n="adj"/></i>
+	  </e>
 	  
 <e r="LR">
 		  <p>
@@ -123246,13 +123249,6 @@
 	<p>
 		<l>gestionar<s n="vblex"/></l>
 		<r>gestionar<s n="vblex"/></r>
-	</p>
-</e>
-
-<e r="RL" a="mmonge">
-	<p>
-		<l>vice-president<s n="n"/></l>
-		<r>vice-president<s n="n"/></r>
 	</p>
 </e>
 

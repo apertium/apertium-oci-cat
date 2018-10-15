@@ -73856,7 +73856,7 @@
 <e lm="Corea"><i>Corea</i> <par n="Afganistan__np"/></e>
 
 <e lm="correferent"><i>correferent</i> <par n="abdominal__adj"/></e>
-<e lm="correferent"><p><l>coreferent</l><r>correferent</r></p> <par n="abdominal__adj"/></e>
+<e lm="correferent" r="LR"><p><l>coreferent</l><r>correferent</r></p> <par n="abdominal__adj"/></e>
 	  
 <e lm="Còria"><i>Còria</i> <par n="Afganistan__np"/></e>
 <e lm="Corilha"><i>Corilha</i> <par n="Afganistan__np"/></e>
@@ -87824,7 +87824,6 @@
 <e lm="datar" a="carmentano"><i>dat</i> <par n="abander/ar__vblex"/></e>
 <e lm="Romà" a="carmentano"><i>Romà</i> <par n="Abad__np"/></e>
 <e lm="Cadafalch" a="carmentano"><i>Cadafalch</i> <par n="Abad__np"/></e>
-<e r="LR" lm="vice-president" a="mmonge"><i>vice-president</i> <par n="senyor__n"/></e>
 <e lm="processar" a="mmonge"><i>process</i> <par n="abander/ar__vblex"/></e>
 <e r="LR" lm="ensems" a="mmonge"><i>ensems</i> <par n="ahir__adv"/></e>
 <!--<e lm="fullet" r="LR" a="mmonge">
@@ -87886,8 +87885,16 @@
 <e lm="ex"><i>ex</i> <par n="multimèdia__adj"/></e>
 <e lm="ex-" r="RL"><p><l><a/>ex-</l><r>ex-</r></p><par n="multimèdia__adj"/></e>
 
-<e lm="macro"><i>macro</i> <par n="multimèdia__adj"/></e>
+<e lm="vice"><i>vice</i> <par n="multimèdia__adj"/></e>
+<e lm="vice-" r="RL"><p><l><a/>vice-</l><r>vice-</r></p><par n="multimèdia__adj"/></e>
+
 <e lm="anti"><i>anti</i> <par n="multimèdia__adj"/></e>
+<e lm="anti-" r="RL"><p><l><a/>anti-</l><r>anti-</r></p><par n="multimèdia__adj"/></e>
+
+<e lm="macro"><i>macro</i> <par n="multimèdia__adj"/></e>
+<e lm="macro-" r="RL"><p><l><a/>macro-</l><r>macro-</r></p><par n="multimèdia__adj"/></e>
+
+
 <e lm="d'ensenyament"><i>d'ensenyament</i> <par n="multimèdia__adj"/></e>
 <e lm="dels estudis"><i>dels<b/>estudis</i> <par n="multimèdia__adj"/></e>
 <e lm="que ve"><i>que<b/>ve</i> <par n="multimèdia__adj"/></e>

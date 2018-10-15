@@ -5296,6 +5296,22 @@
 			  </let>
 		       </when>
                       </choose>
+		   <choose>
+	                <when>
+			  <test>
+			
+					<equal caseless="yes">
+						<clip pos="1" side="sl" part="lem"/>
+						<lit v="vice"/>
+					</equal>
+				
+			  </test>
+			  <let>
+				<clip pos="1" side="tl" part="lem"/>
+				<lit v="vice-"/>
+			  </let>
+		       </when>
+                      </choose>
 			<out>
 				<chunk name="adj_adj_nom" case="caseFirstWord">
 					<tags>
@@ -5387,6 +5403,23 @@
 			  </let>
 		       </when>
                       </choose>
+                   <choose>
+	                <when>
+			  <test>
+			
+					<equal caseless="yes">
+						<clip pos="2" side="sl" part="lem"/>
+						<lit v="vice"/>
+					</equal>
+				
+			  </test>
+			  <let>
+				<clip pos="2" side="tl" part="lem"/>
+				<lit v="vice-"/>
+			  </let>
+		       </when>
+                      </choose>
+		
 			<out>
 				<chunk name="det_adj_adj_nom" case="caseFirstWord">
 					<tags>
