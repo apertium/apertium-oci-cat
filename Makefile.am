@@ -1,4 +1,3 @@
-VERSION=1.0.6
 LANG1=oc
 LANG2=ca
 LANG1b=oc@aran
@@ -29,48 +28,53 @@ TARGETS = $(TARGETS_COMMON) $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x
           $(PREFIX2).t1x $(PREFIX2).t2x $(PREFIX2).t3x \
           $(PREFIX2b).t1x $(PREFIX2b).t2x $(PREFIX2b).t3x
 
-.deps/$(LANG1).metadix: $(BASENAME).$(LANG1).metadix
+@ap_include@
+
+.deps:
+	mkdir -p .deps
+
+.deps/$(LANG1).metadix: $(BASENAME).$(LANG1).metadix .deps
 	xsltproc --stringparam alt $(LANG1) alt.xsl $(BASENAME).$(LANG1).metadix >$@
 
-.deps/$(LANG1).dix: .deps/$(LANG1).metadix
+.deps/$(LANG1).dix: .deps/$(LANG1).metadix .deps
 	xsltproc buscaPar.xsl .deps/$(LANG1).metadix | uniq >$$$$tmp1 && \
 	xsltproc $$$$tmp1 .deps/$(LANG1).metadix > $@ && rm $$$$tmp1
 
-.deps/$(LANG1b).metadix: $(BASENAME).$(LANG1).metadix
+.deps/$(LANG1b).metadix: $(BASENAME).$(LANG1).metadix .deps
 	xsltproc --stringparam alt $(LANG1b) alt.xsl $(BASENAME).$(LANG1).metadix >$@
 
-.deps/$(LANG1b).dix: .deps/$(LANG1b).metadix
+.deps/$(LANG1b).dix: .deps/$(LANG1b).metadix .deps
 	xsltproc buscaPar.xsl .deps/$(LANG1b).metadix | uniq >$$$$tmp1 && \
 	xsltproc $$$$tmp1 .deps/$(LANG1b).metadix > $@ && rm $$$$tmp1
 
-.deps/$(LANG2).dix: $(BASENAME).$(LANG2).dix
+.deps/$(LANG2).dix: $(BASENAME).$(LANG2).dix .deps
 	xsltproc --stringparam alt $(LANG1) alt.xsl $(BASENAME).$(LANG2).dix >$@
 
-.deps/$(LANG2b).dix: $(BASENAME).$(LANG2).dix
+.deps/$(LANG2b).dix: $(BASENAME).$(LANG2).dix .deps
 	xsltproc --stringparam alt $(LANG1b) alt.xsl $(BASENAME).$(LANG2).dix >$@
 
-.deps/$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix
+.deps/$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix .deps
 	xsltproc --stringparam alt $(LANG1) alt.xsl $(BASENAME).$(PREFIX1).dix >$@
 
-.deps/$(PREFIX1b).dix: $(BASENAME).$(PREFIX1).dix
+.deps/$(PREFIX1b).dix: $(BASENAME).$(PREFIX1).dix .deps
 	xsltproc --stringparam alt $(LANG1b) alt.xsl $(BASENAME).$(PREFIX1).dix >$@
 
-.deps/$(PREFIX1).post.dix: $(BASENAME).post-$(LANG2).dix
+.deps/$(PREFIX1).post.dix: $(BASENAME).post-$(LANG2).dix .deps
 	xsltproc --stringparam alt $(LANG1) alt.xsl $(BASENAME).post-$(LANG2).dix >$@
 
-.deps/$(PREFIX1b).post.dix: $(BASENAME).post-$(LANG2).dix
+.deps/$(PREFIX1b).post.dix: $(BASENAME).post-$(LANG2).dix .deps
 	xsltproc --stringparam alt $(LANG1b) alt.xsl $(BASENAME).post-$(LANG2).dix >$@
 
-.deps/$(LANG1).post.dix: $(BASENAME).post-$(LANG1).dix
+.deps/$(LANG1).post.dix: $(BASENAME).post-$(LANG1).dix .deps
 	xsltproc --stringparam alt $(LANG1) alt.xsl $(BASENAME).post-$(LANG1).dix >$@
 
-.deps/$(LANG1b).post.dix: $(BASENAME).post-$(LANG1).dix
+.deps/$(LANG1b).post.dix: $(BASENAME).post-$(LANG1).dix .deps
 	xsltproc --stringparam alt $(LANG1b) alt.xsl $(BASENAME).post-$(LANG1).dix >$@
 
-.deps/$(LANG2).post.dix: $(BASENAME).post-$(LANG2).dix
+.deps/$(LANG2).post.dix: $(BASENAME).post-$(LANG2).dix .deps
 	xsltproc --stringparam alt $(LANG1) alt.xsl $(BASENAME).post-$(LANG2).dix >$@
 
-.deps/$(LANG2b).post.dix: $(BASENAME).post-$(LANG2).dix
+.deps/$(LANG2b).post.dix: $(BASENAME).post-$(LANG2).dix .deps
 	xsltproc --stringparam alt $(LANG1b) alt.xsl $(BASENAME).post-$(LANG2).dix >$@
 
 $(PREFIX1).automorf.bin: .deps/$(LANG1).dix
@@ -235,17 +239,11 @@ EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
            $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t3x 
 
 
-modes/$(PREFIX1).mode: modes.xml 
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode
 
 
 apertium_oc_cadir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_oc_camodesdir=$(prefix)/share/apertium/modes/
 
 apertium_oc_ca_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
                     $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
@@ -265,15 +263,6 @@ apertium_oc_ca_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
                     $(PREFIX2).t1x $(PREFIX2).t2x $(PREFIX2).t3x \
                     $(PREFIX2b).t1x $(PREFIX2b).t2x $(PREFIX2b).t3x
 
-install-data-local:
-	mv modes modes.bak
-	apertium-gen-modes modes.xml apertium-$(PREFIX1)
-	rm -rf modes
-	mv modes.bak modes
-	test -d $(DESTDIR)$(apertium_oc_camodesdir) || mkdir $(DESTDIR)$(apertium_oc_camodesdir)
-	$(INSTALL_DATA) oc-ca.mode $(DESTDIR)$(apertium_oc_camodesdir)
-	$(INSTALL_DATA) ca-oc.mode $(DESTDIR)$(apertium_oc_camodesdir)
-	$(INSTALL_DATA) oc_aran-ca.mode $(DESTDIR)$(apertium_oc_camodesdir)
-	$(INSTALL_DATA) ca-oc_aran.mode $(DESTDIR)$(apertium_oc_camodesdir)
+install-data-local: install-modes
 
 CLEANFILES = -r $(TARGETS)
