@@ -28,3 +28,10 @@
 /oc@aran-ca.t2x
 /oc@aran-ca.t3x
 /stamp-h1
+/*.hfst
+/*.gz
+/*.pc
+/*.zhfst
+/.DS_Store
+/*-*.prob
+/test/*-output.txt

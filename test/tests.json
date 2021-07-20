@@ -1,0 +1,18 @@
+{
+    "ca-oc": {
+        "input": "ca-oc-input.txt",
+        "mode": "ca-oc"
+    },
+    "ca-oc@aran": {
+        "input": "ca-oc@aran-input.txt",
+        "mode": "ca-oc_aran"
+    },
+    "oc-ca": {
+        "input": "oc-ca-input.txt",
+        "mode": "oc-ca"
+    },
+    "oc@aran-ca": {
+        "input": "oc@aran-ca-input.txt",
+        "mode": "oc_aran-ca"
+    }
+}

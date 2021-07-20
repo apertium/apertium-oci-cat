@@ -1,0 +1,14 @@
+[9eFGcTbRdiPC#0] ^pro<prnpro><p2><mf><pl>{^us<prn><pro><p2><mf><pl>$}$
+[/9eFGcTbRdiPC]
+[DcXq32jkCSLH#0] ^num{^6,300<num>$}$
+[/DcXq32jkCSLH]
+[GKe2SrNbFR4c#0] ^unknown<unknown>{^*ç$}$--^unknown<unknown>{^*zntnreirtse$}$-^nom<SN><f><sg><ndf>{^s<n><2><3>$}$--^a<PREP>{^a<pr>$}$
+[/GKe2SrNbFR4c]
+[NCFBkOjA1GBZ#0] ^default<default>{^¿<lquest>$}$
+[/NCFBkOjA1GBZ]
+[dlqrHXPI56hn#0] ^unknown<unknown>{^*í$}$ ^unknown<unknown>{^*neia$}$
+[/dlqrHXPI56hn]
+[sTwJOW3Hnxb5#0] ^pro<prnpro><ref><p3><mf><sp>{^es<prn><pro><ref><p3><mf><sp>$}$
+[/sTwJOW3Hnxb5]
+[ul7FHQekrA6V#0] ^default<default>{^)<rpar>$}$
+[/ul7FHQekrA6V]

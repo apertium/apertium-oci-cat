@@ -1,0 +1,18 @@
+[9diSC8nj2joV#0] ^abans de<PREP>{^abans de<pr>$}$
+[/9diSC8nj2joV]
+[JhcopBhoEvgy#0] ^un pialèr de<PREP>{^un pialèr de<pr>$}$
+[/JhcopBhoEvgy]
+[ME8H0Nj3-Pk9#0] ^unknown<unknown>{^*ài$}$-^unknown<unknown>{^*ll$}$
+[/ME8H0Nj3-Pk9]
+[TgdAhWK-24tg#0] ^num{^3<num>$}$
+[/TgdAhWK-24tg]
+[d5cEVr4O2lZo#0] ^pro<prnpro><p2><mf><sg>{^te<prn><pro><p2><mf><sg>$}$
+[/d5cEVr4O2lZo]
+[i7vZKpQDMpa9#0] ^pro<prnpro><adv>{^en<prn><pro><adv>$}$
+[/i7vZKpQDMpa9]
+[u3IIvJtdfATx#0] ^punt<sent>{^!<sent>$}$
+[/u3IIvJtdfATx]
+[ul7FHQekrA6V#0] ^default<default>{^)<rpar>$}$
+[/ul7FHQekrA6V]
+[zpJ2fDpIYS0j#0] ^det<DET><m><sg>{^eth<det><def><2><3>$}$
+[/zpJ2fDpIYS0j]

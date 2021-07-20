@@ -1,0 +1,18 @@
+[9diSC8nj2joV#0] ^abans d'/abans de<pr>$
+[/9diSC8nj2joV]
+[JhcopBhoEvgy#0] ^un munt d'/un munt de<pr>$
+[/JhcopBhoEvgy]
+[ME8H0Nj3-Pk9#0] ^ài/*ài$-^ll/*ll$
+[/ME8H0Nj3-Pk9]
+[TgdAhWK-24tg#0] ^3/3<num>$
+[/TgdAhWK-24tg]
+[d5cEVr4O2lZo#0] ^t'/et<prn><pro><p2><mf><sg>$
+[/d5cEVr4O2lZo]
+[i7vZKpQDMpa9#0] ^n'/en<prn><pro><adv>$
+[/i7vZKpQDMpa9]
+[u3IIvJtdfATx#0] ^!/!<sent>$
+[/u3IIvJtdfATx]
+[ul7FHQekrA6V#0] ^)/)<rpar>$
+[/ul7FHQekrA6V]
+[zpJ2fDpIYS0j#0] ^l'/el<det><def><mf><sg>/el<prn><pro><p3><f><sg>/el<prn><pro><p3><m><sg>$
+[/zpJ2fDpIYS0j]

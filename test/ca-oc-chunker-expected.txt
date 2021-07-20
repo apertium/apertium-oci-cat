@@ -1,0 +1,14 @@
+[2ahHoaeatEgl#0] ^num{^0%<num><percent>$}$
+[/2ahHoaeatEgl]
+[BD8cFZFsc9zW#0] ^davant<PREP>{^davant<pr>$}$
+[/BD8cFZFsc9zW]
+[Ecylx7Bu55yS#0] ^verb<SV><vblex><pri><p3><pl>{^aver<vblex><3><4><5># enveja de$}$
+[/Ecylx7Bu55yS]
+[hsrMqg1fZENu#0] ^num{^23%<num><percent>$}$
+[/hsrMqg1fZENu]
+[i7vZKpQDMpa9#0] ^pro<prnpro><adv>{^en<prn><pro><adv>$}$
+[/i7vZKpQDMpa9]
+[o_Dq24Vmxryf#0] ^una seguida de<PREP>{^una seguida de<pr>$}$
+[/o_Dq24Vmxryf]
+[z8z83rKlAiyB#0] ^unknown<unknown>{^*ti$}$
+[/z8z83rKlAiyB]

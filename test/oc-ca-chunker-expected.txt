@@ -1,0 +1,22 @@
+[4Z0tSdNhqiLl#0] ^un munt de<PREP>{^un munt de<pr>$}$
+[/4Z0tSdNhqiLl]
+[5VA1ZiVobtyM#0] ^pro<prnpro><p1><mf><sg>{^em<prn><pro><p1><mf><sg>$}$ ^pro<prnpro><p3><nt>{^ho<prn><pro><p3><nt>$}$ -^unknown<unknown>{^*od$}$'
+[/5VA1ZiVobtyM]
+[8IgPMH5TzP3i#0] ^default<default>{^@¡<lquest>$}$
+[/8IgPMH5TzP3i]
+[Fcf86T9HGuaO#0] ^unknown<unknown>{^*miauivv$}$
+[/Fcf86T9HGuaO]
+[Ie2YlVq8f44x#0] ^cnjadv<cnjadv>{^perquè<cnjadv>$}$
+[/Ie2YlVq8f44x]
+[a1HUMd9dfxQc#0] ^num{^12<num>$}$
+[/a1HUMd9dfxQc]
+[b6eoWXVDAPkT#0] ^unknown<unknown>{^*çssrrétt$}$'^unknown<unknown>{^*iio$}$
+[/b6eoWXVDAPkT]
+[erMlmFJl7-2M#0] ^num{^10.30%<num><percent>$}$
+[/erMlmFJl7-2M]
+[m2JYWXngnLtp#0] ^cnjadv<cnjadv>{^fins que<cnjadv>$}$
+[/m2JYWXngnLtp]
+[sTwJOW3Hnxb5#0] ^pro<prnpro><ref><p3><mf><sp>{^es<prn><pro><ref><p3><mf><sp>$}$
+[/sTwJOW3Hnxb5]
+[ul7FHQekrA6V#0] ^default<default>{^)<rpar>$}$
+[/ul7FHQekrA6V]
