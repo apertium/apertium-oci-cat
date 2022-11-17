@@ -1,23 +1,79 @@
-Occitan--Catalan translator
-==========================================================================
+# Occitan and Catalan: apertium-oci-cat
 
-TRANSLATOR
+This is an Apertium language pair for translating between Occitan and
+Catalan. What you can use this language package for:
 
-You need apertium and lttoolbox, either version 3.0 or later to use
-this language-pair package with Apertium.  To compile the linguistic
-data simply do:
+* Translating between Occitan and Catalan
+* Morphological analysis of Occitan and Catalan
+* Part-of-speech tagging of Occitan and Catalan
 
-$ ./configure	(or sh autogen.sh if you have downloaded from SVN)
+For information on the latter two points, see subheading "For more
+information" below
 
-to generate a Makefile file and then
+## Requirements
 
-$ make
+You will need the following software installed:
 
-inside of this directory.
+* lttoolbox
+* apertium
+* vislcg3
+* apertium-oci
+* apertium-cat
 
+If this does not make any sense, we recommend you look at: apertium.org
 
-===================================================================
+## Compiling
 
-More information about this module, and others can be found on 
-the Apertium: Wiki, https://wiki.apertium.org
+Given the requirements being installed, you should be able to just run:
 
+    $ ./configure
+    $ make
+    # make install
+
+You can use `./autogen.sh` instead of `./configure` in case you're compiling from
+source. If you installed any prerequisite language packages using a `--prefix`
+to `./configure`, make sure to give the same `--prefix` to `./configure` here.
+
+## Testing
+
+If you are in the source directory after running make, the following
+commands should work:
+
+    $ echo "TODO test sentence 1" | apertium -d . oci-cat
+    TODO test translated sentence 1
+
+    $ echo "TODO test sentence 2" | apertium -d . cat-oci
+    TODO test translated sentence 2
+
+After installing somewhere in $PATH, you should be able to do e.g.
+
+    $ echo "TODO test sentence 1" | apertium oci-cat
+    TODO test translated sentence 1
+
+## Files and data
+
+* apertium-oci-cat.oci-cat.dix  - Bilingual dictionary
+* apertium-oci-cat.oci-cat.t1x  - Chunking rules for translating into Catalan
+* apertium-oci-cat.cat-oci.t1x  - Chunking rules for translating into Occitan
+* apertium-oci-cat.oci-cat.t2x  - Interchunk rules for translating into Catalan
+* apertium-oci-cat.cat-oci.t2x  - Interchunk rules for translating into Occitan
+* apertium-oci-cat.oci-cat.t3x  - Postchunk rules for translating into Catalan
+* apertium-oci-cat.cat-oci.t3x  - Postchunk rules for translating into Occitan
+* apertium-oci-cat.oci-cat.lrx  - Lexical selection rules for translating into Catalan
+* apertium-oci-cat.cat-oci.lrx  - Lexical selection rules for translating into Occitan
+* modes.xml                     - Translation modes
+
+## For more information
+
+* https://wiki.apertium.org/wiki/Installation
+* https://wiki.apertium.org/wiki/apertium-oci-cat
+* https://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
+
+## Help and support
+
+If you need help using this language pair or data, you can contact:
+
+* Mailing list: apertium-stuff@lists.sourceforge.net
+* IRC: #apertium on irc.oftc.net
+
+See also the file AUTHORS included in this distribution.
