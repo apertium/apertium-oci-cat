@@ -5309,7 +5309,7 @@
 <e r="LR" alt="oci@aran"><p><l>prèp<s n="adj"/></l>    <r>proper<s n="adj"/></r></p></e>
 <e alt="oci"><p><l>prèp<s n="adj"/></l>                <r>proper<s n="adj"/></r></p></e>
 <e>       <p><l>qualitatiu<s n="adj"/></l>             <r>qualitatiu<s n="adj"/></r></p></e>
-<e>       <p><l>rapid<s n="adj"/></l>                  <r>ràpid<s n="adj"/></r></p></e>
+<e>       <p><l>rapide<s n="adj"/></l>                 <r>ràpid<s n="adj"/></r></p></e>
 <e>       <p><l>republican<s n="adj"/></l>             <r>republicà<s n="adj"/></r></p></e>
 <e>       <p><l>ribagorçan<s n="adj"/></l>             <r>ribagorçà<s n="adj"/></r></p></e>
 <e>       <p><l>saharian<s n="adj"/></l>               <r>saharià<s n="adj"/></r></p></e>
@@ -20174,13 +20174,9 @@
 <e a="mmonge"><p><l>desaven<s n="n"/><s n="m"/></l>    <r>desavinença<s n="n"/><s n="f"/></r></p></e>
 <e a="mmonge"><p><l>cultiu<s n="n"/></l>               <r>cultiu<s n="n"/></r></p></e>
 <e a="mmonge"><p><l>subsidiar<s n="vblex"/></l>        <r>subsidiar<s n="vblex"/></r></p></e>
-<e r="LR" a="mmonge" alt="oci"><p><l>cruciau<s n="adj"/></l><r>crucial<s n="adj"/></r></p></e>
-<e a="mmonge" alt="oci@aran"><p><l>cruciau<s n="adj"/></l><r>crucial<s n="adj"/></r></p></e>
-<e r="LR" alt="oci@aran"><p><l>crucial<s n="adj"/><s n="m"/></l><r>crucial<s n="adj"/><s n="mf"/></r></p></e>
-<e r="LR" alt="oci"><p><l>crucial<s n="adj"/><s n="m"/></l><r>crucial<s n="adj"/><s n="mf"/></r></p></e>
-<e r="LR" alt="oci@aran"><p><l>crucial<s n="adj"/><s n="f"/></l><r>crucial<s n="adj"/><s n="mf"/></r></p></e>
-<e r="LR" alt="oci"><p><l>crucial<s n="adj"/><s n="f"/></l><r>crucial<s n="adj"/><s n="mf"/></r></p></e>
-<e r="RL" alt="oci"><p><l>crucial<s n="adj"/><s n="GD"/></l><r>crucial<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>crucial<s n="adj"/><s n="m"/></l>      <r>crucial<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>crucial<s n="adj"/><s n="f"/></l>      <r>crucial<s n="adj"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>crucial<s n="adj"/><s n="GD"/></l>     <r>crucial<s n="adj"/><s n="mf"/></r></p></e>
 <e a="mmonge"><p><l>desfavorit<s n="adj"/></l>         <r>desfavorit<s n="adj"/></r></p></e>
 <e a="mmonge"><p><l>proliferar<s n="vblex"/></l>       <r>proliferar<s n="vblex"/></r></p></e>
 <e a="mmonge"><p><l>costipat<s n="n"/></l>             <r>refredat<s n="n"/></r></p></e>
