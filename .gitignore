@@ -34,3 +34,8 @@
 /oci@aran-cat.t1x
 /oci@aran-cat.t2x
 /oci@aran-cat.t3x
+/dev/testvoc/.*
+/dev/testvoc/duplicates.*.txt
+/dev/testvoc/testvoc-errors.*.txt
+/dev/testvoc/testvoc-missing.*.txt
+/prefs

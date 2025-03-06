@@ -12,6 +12,8 @@ PREFIX2b=$(LANG2)-$(LANG1b)
 
 BASENAME=apertium-$(PREFIX1)
 
+TARGETS_PREFS = prefs/$(PREFIX1).xml
+
 TARGETS_COMMON =		\
 	$(PREFIX1).automorf.bin	\
 	$(PREFIX1b).automorf.bin	\
@@ -23,6 +25,7 @@ TARGETS_COMMON =		\
 	$(PREFIX1b).autolex.bin	\
 	$(PREFIX1).autogen.bin	\
 	$(PREFIX1).autopgen.bin	\
+	$(PREFIX1).prefs.rlx.bin	\
 	$(PREFIX1).t1x.bin	\
 	$(PREFIX1).t2x.bin	\
 	$(PREFIX1).t3x.bin	\
@@ -57,7 +60,8 @@ TARGETS_COMMON =		\
 	$(PREFIX2).t3x  \
 	$(PREFIX2b).t1x	\
 	$(PREFIX2b).t2x	\
-	$(PREFIX2b).t3x
+	$(PREFIX2b).t3x	\
+ 	prefs/$(PREFIX1).xml
 
 
 # This include defines goals for install-modes, .deps/.d and .mode files:
@@ -81,7 +85,6 @@ $(PREFIX1b).automorf.bin: $(AP_SRC1)/$(LANG1b).automorf.bin $(PREFIX1b).autobil.
 # Occitan generation:
 # ---------------------
 
-
 $(PREFIX2).autogen.bin: $(AP_SRC1)/$(LANG1).autogen.bin
 	cp $< $@
 
@@ -89,16 +92,15 @@ $(PREFIX2b).autogen.bin: $(AP_SRC1)/$(LANG1b).autogen.bin
 	cp $< $@
 
 # -------------------
-# French analysis:
+# Catalan analysis:
 # -------------------
 
 $(PREFIX2).automorf.bin: $(AP_SRC2)/$(LANG2).automorf.bin $(PREFIX2).autobil.bin
 	lt-trim $^ $@
 
 # -------------------
-# French generation:
+# Catalan generation:
 # ---------------------
-
 
 $(PREFIX1).autogen.bin: $(AP_SRC2)/$(LANG2).autogen.bin
 	cp $< $@
@@ -271,6 +273,34 @@ $(PREFIX2b).autopgen.bin: $(AP_SRC1)/$(LANG1b).autopgen.bin
 	cp $< $@
 
 ###############################################################################
+## Variant preferences
+###############################################################################
+
+$(PREFIX1).prefs.rlx.bin: $(AP_SRC2)/$(LANG2).prefs.rlx.bin
+	cp $< $@
+
+###############################################################################
+## Preferences
+###############################################################################
+
+prefs/$(LANG2).preferences.xml: $(AP_SRC2)/$(LANG2).preferences.xml
+	$(MKDIR_P) prefs
+	cp $< $@
+
+define mergePrefs =
+$(MKDIR_P) prefs
+echo '<preferences>' >$@.tmp
+for f in $^; do xmllint --xpath '/preferences/preference' "$$f"; done >>$@.tmp
+echo '</preferences>' >>$@.tmp
+mv $@.tmp $@
+endef
+
+# uncomment when we have bilingual preferences
+# prefs/$(PREFIX1).xml: $(LANG2).preferences.xml $(PREFIX1).preferences.xml
+prefs/$(PREFIX1).xml: prefs/$(LANG2).preferences.xml 
+		$(mergePrefs)
+
+###############################################################################
 ## Distribution
 ###############################################################################
 
@@ -286,7 +316,8 @@ EXTRA_DIST=					\
 		$(BASENAME).$(PREFIX2).t1x	\
 		$(BASENAME).$(PREFIX2).t2x	\
 		$(BASENAME).$(PREFIX2).t3x	\
-		alt.xsl modes.xml
+		alt.xsl modes.xml	\
+		$(PREFIX1).preferences.xml
 
 ###############################################################################
 ## Installation
@@ -305,9 +336,11 @@ apertium_oci_cat_DATA=	\
 	$(BASENAME).$(PREFIX2).t3x
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
-noinst_DATA=modes/$(PREFIX1).mode
+noinst_DATA=modes/$(PREFIX1).mode $(TARGETS_PREFS)
 
 install-data-local: install-modes
+	$(MKDIR_P) $(DESTDIR)$(apertium_modesdir)/../prefs
+	$(INSTALL_DATA) $(TARGETS_PREFS) $(DESTDIR)$(apertium_modesdir)/../prefs
 
 ###############################################################################
 ## Cleanup
