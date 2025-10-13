@@ -97,6 +97,7 @@
   </def-attr> 
   <def-attr n="lema_vb">
           <attr-item tags="venir"/>
+          <attr-item tags="viéner"/>
           <attr-item tags="hèr"/>
           <attr-item tags="començar"/>
           <attr-item tags="contunhar"/>
@@ -348,7 +349,7 @@
                 <test>
                   <equal caseless="yes">
                     <clip pos="1" part="lema_vb"/>
-                    <lit-tag v="venir"/>
+                    <lit-tag v="viéner"/>
                   </equal>
                 </test>
                 <let>

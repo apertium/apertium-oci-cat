@@ -658,6 +658,7 @@
     <def-list n="vbambser">
       <list-item v="anar"/>
       <list-item v="devier"/>
+      <list-item v="deviéner"/>
       <list-item v="arribar"/>
       <list-item v="morir"/>
       <list-item v="defuntar"/>
@@ -668,6 +669,8 @@
       <list-item v="demorar"/>
       <list-item v="venir"/>
       <list-item v="devenir"/>
+      <list-item v="viéner"/>
+      <list-item v="deviéner"/>
       <list-item v="gésser"/>
       <list-item v="sortir"/>
       <list-item v="passar"/>
@@ -679,6 +682,7 @@
     
     <def-list n="amb_a">
       <list-item v="correspondre" alt="oci"/>
+      <list-item v="correspónder" alt="oci"/>
       <list-item v="relacionar" alt="oci"/>
       <list-item v="lalà" alt="oci@aran"/>
     </def-list>
@@ -707,6 +711,7 @@
 
     <def-list n="a_en">
       <list-item v="viure" alt="oci@aran"/>
+      <list-item v="víver" alt="oci@aran"/>
       <list-item v="arribar" alt="oci@aran"/>
       <list-item v="manifestar" alt="oci@aran"/>
       
@@ -1797,6 +1802,10 @@
               <equal caseless="yes">
                 <clip pos="1" side="sl" part="lemh"/>
                 <lit v="venir"/>
+              </equal>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="lemh"/>
+                <lit v="viéner"/>
               </equal>
               <equal caseless="yes">
                 <clip pos="1" side="sl" part="lemh"/>
@@ -5517,7 +5526,7 @@
                 <lit-tag v="vbser.prs.p3.sg"/>
               </lu> 
               <lu alt="oci@aran">
-                <lit v="èster"/>
+                <lit v="èsser"/>
                 <lit-tag v="vbser.prs.p3.sg"/>
               </lu> 
             </chunk>
@@ -5668,7 +5677,7 @@
                 <lit-tag v="vbser.prs.p3.sg"/>
               </lu> 
               <lu alt="oci@aran">
-                <lit v="èster"/>
+                <lit v="èsser"/>
                 <lit-tag v="vbser.prs.p3.sg"/>
               </lu> 
             </chunk>
@@ -6421,7 +6430,7 @@
                     <lit-tag v="vbser.prs.p3.sg"/>
                   </lu> 
                   <lu alt="oci@aran">
-                    <lit v="èster"/>
+                    <lit v="èsser"/>
                     <lit-tag v="vbser.prs.p3.sg"/>
                   </lu> 
                 </chunk>
@@ -6524,7 +6533,7 @@
                     <lit-tag v="vbser.prs.p3.sg"/>
                   </lu> 
                   <lu alt="oci@aran">
-                    <lit v="èster"/>
+                    <lit v="èsser"/>
                     <lit-tag v="vbser.prs.p3.sg"/>
                   </lu> 
                 </chunk>
@@ -6851,7 +6860,7 @@
                     <lit-tag v="vbser.prs.p3.sg"/>
                   </lu> 
                   <lu alt="oci@aran">
-                    <lit v="èster"/>
+                    <lit v="èsser"/>
                     <lit-tag v="vbser.prs.p3.sg"/>
                   </lu> 
                 </chunk>
@@ -7148,7 +7157,7 @@
                 <lit-tag v="vbser.prs.p3.sg"/>
               </lu> 
               <lu alt="oci@aran">
-                <lit v="èster"/>
+                <lit v="èsser"/>
                 <lit-tag v="vbser.prs.p3.sg"/>
               </lu> 
             </chunk>
@@ -7293,7 +7302,7 @@
                 <lit-tag v="vbser.prs.p3.sg"/>
               </lu> 
               <lu alt="oci@aran">
-                <lit v="èster"/>
+                <lit v="èsser"/>
                 <lit-tag v="vbser.prs.p3.sg"/>
               </lu> 
             </chunk>
@@ -7429,7 +7438,7 @@
                 <lit-tag v="vbser.prs.p3.sg"/>
               </lu> 
               <lu alt="oci@aran">
-                <lit v="èster"/>
+                <lit v="èsser"/>
                 <lit-tag v="vbser.prs.p3.sg"/>
               </lu> 
             </chunk>
@@ -7548,7 +7557,7 @@
                 <lit-tag v="vbser.prs.p3.sg"/>
               </lu> 
               <lu alt="oci@aran">
-                <lit v="èster"/>
+                <lit v="èsser"/>
                 <lit-tag v="vbser.prs.p3.sg"/>
               </lu> 
             </chunk>
@@ -7784,7 +7793,7 @@
                     <lit-tag v="vbser.prs.p3.sg"/>
                   </lu> 
                   <lu alt="oci@aran">
-                    <lit v="èster"/>
+                    <lit v="èsser"/>
                     <lit-tag v="vbser.prs.p3.sg"/>
                   </lu> 
                 </chunk>
@@ -7923,7 +7932,7 @@
                     <lit-tag v="vbser.prs.p3.sg"/>
                   </lu> 
                   <lu alt="oci@aran">
-                    <lit v="èster"/>
+                    <lit v="èsser"/>
                     <lit-tag v="vbser.prs.p3.sg"/>
                   </lu> 
                 </chunk>

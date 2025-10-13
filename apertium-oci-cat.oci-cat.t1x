@@ -107,6 +107,7 @@
     <def-cat n="anar">
       <cat-item lemma="anar" tags="vblex.*"/>
       <cat-item lemma="venir" tags="vblex.*"/>
+      <cat-item lemma="viéner" tags="vblex.*"/>
       <cat-item lemma="pujar" tags="vblex.*"/>
       <cat-item lemma="baixar" tags="vblex.*"/>
       <cat-item lemma="entrar" tags="vblex.*"/>
@@ -146,6 +147,7 @@
 
     <def-cat n="caler">
       <cat-item lemma="caler" tags="vbmod.*"/>
+      <cat-item lemma="càler" tags="vbmod.*"/>
     </def-cat>
     
  <def-cat n="mai">
@@ -156,8 +158,9 @@
       <cat-item lemma="estar" tags="vblex.*"/>
     </def-cat>
 
-     <def-cat n="venir">
+     <def-cat n="viéner">
       <cat-item lemma="venir" tags="vblex.*"/>
+      <cat-item lemma="viéner" tags="vblex.*"/>
     </def-cat>
 
     <def-cat n="verbpers">
@@ -561,7 +564,7 @@
     </def-list>
     
     <def-list n="de_sobre">
-      <list-item v="debatre" alt="oci"/>
+      <list-item v="debàter" alt="oci"/>
       <list-item v="lalà" alt="oci@aran"/>
     </def-list>
 
@@ -742,6 +745,7 @@
       <list-item v="arribar"/>
       <list-item v="venir"/>
       <list-item v="vier"/>
+      <list-item v="viéner"/>
       <list-item v="passar"/>
       <list-item v="gésser"/>
   </def-list>
@@ -756,6 +760,7 @@
     <def-list n="v_amb_a">
       <list-item v="enfilar"/>
       <list-item v="viure"/>
+      <list-item v="víver"/>
       <list-item v="entrar"/>
       <list-item v="seure"/>
       <list-item v="anar"/>
@@ -776,12 +781,14 @@
       <list-item v="partir"/>
       <list-item v="venir"/>
       <list-item v="vier"/>
+      <list-item v="viéner"/>
       <list-item v="èster"/>
       <list-item v="èsser"/>
       <list-item v="davalar"/>
       <list-item v="baissar"/>
       <list-item v="baishar"/>
       <list-item v="aperténer"/>
+      <list-item v="apertiéner"/>
       <list-item v="pertànher"/>
       <list-item v="sortir"/>
       <list-item v="passar"/>
@@ -1708,11 +1715,11 @@
             <and>
               <equal alt="oci">
                 <clip pos="1" side="sl" part="lem"/>
-                <lit v="dever"/>
+                <lit v="déver"/>
               </equal>
               <equal alt="oci@aran">
                 <clip pos="1" side="sl" part="lem"/>
-                <lit v="déuer"/>
+                <lit v="déver"/>
               </equal>
               <equal>
                 <var n="cond"/>
@@ -1921,7 +1928,7 @@
                                                   </equal>
                                                   <equal>
                                                     <clip pos="1" side="sl" part="lem"/>
-                                                    <lit v="enténer"/>
+                                                    <lit v="enténder"/>
                                                   </equal>
                                                 </or>
                                               </test>
@@ -1993,12 +2000,12 @@
           <test>
             <equal caseless="yes">
               <clip pos="1" side="sl" part="lemh"/>
-              <lit v="venir"/>
+              <lit v="viéner"/>
             </equal>
           </test>
           <let>
             <var n="cv_verb"/>
-            <lit-tag v="venir"/>
+            <lit-tag v="viéner"/>
           </let>
         </when>
         <otherwise>

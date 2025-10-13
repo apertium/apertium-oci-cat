@@ -134,6 +134,7 @@
       
   <def-attr n="lema_vb">
     <attr-item tags="venir"/>
+    <attr-item tags="viéner"/>
     <attr-item tags="anar"/>
     <attr-item tags="seguir"/>
     <attr-item tags="contunhar"/>
