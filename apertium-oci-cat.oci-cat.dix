@@ -663,7 +663,7 @@
 <e r="LR" alt="oci@aran"><p><l>mercejar<s n="vblex"/></l><r>agrair<s n="vblex"/></r></p></e>
 <e alt="oci"><p><l>mercejar<s n="vblex"/></l>          <r>agrair<s n="vblex"/></r></p></e>
 <e>       <p><l>sorgir<s n="vblex"/></l>               <r>sorgir<s n="vblex"/></r></p></e>
-<e>       <p><l>resorgir<s n="vblex"/></l>             <r>resorgir<s n="vblex"/></r></p></e>
+<e>       <p><l>resorgir<s n="vblex"/></l>             <r>ressorgir<s n="vblex"/></r></p></e>
 <e>       <p><l>Sangenís<s n="np"/></l>                <r>Sangenís<s n="np"/></r></p></e>
 <e>       <p><l>restablir<s n="vblex"/></l>            <r>restablir<s n="vblex"/></r></p></e>
 <e>       <p><l>residir<s n="vblex"/></l>              <r>residir<s n="vblex"/></r></p></e>
@@ -1314,8 +1314,8 @@
 <e>       <p><l>plaça<s n="n"/></l>                    <r>plaça<s n="n"/></r></p></e>
 <e>       <p><l>Alex<s n="np"/></l>                    <r>Alex<s n="np"/></r></p></e>
 <e>       <p><l>contracte<s n="n"/></l>                <r>contracte<s n="n"/></r></p></e>
-<e>       <p><l>voler<s n="vblex"/></l>                <r>voler<s n="vblex"/></r></p></e>
-<e>       <p><l>voler<s n="vbmod"/></l>                <r>voler<s n="vbmod"/></r></p></e>
+<e>       <p><l>vòler<s n="vblex"/></l>                <r>voler<s n="vblex"/></r></p></e>
+<e>       <p><l>vòler<s n="vbmod"/></l>                <r>voler<s n="vbmod"/></r></p></e>
 <e>       <p><l>apartat<s n="n"/></l>                  <r>apartat<s n="n"/></r></p></e>
 <e>       <p><l>CDA<s n="n"/></l>                      <r>CDA<s n="n"/></r></p></e>
 <e r="LR" alt="oci"><p><l>deuant<s n="adv"/></l>       <r>davant<s n="adv"/></r></p></e>
@@ -2582,7 +2582,8 @@
 <e>       <p><l>introdusir<s n="vblex"/></l>           <r>introduir<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>introdúser<s n="vblex"/></l>           <r>introduir<s n="vblex"/></r></p></e>
 <e>       <p><l>partir<s n="vblex"/></l>               <r>partir<s n="vblex"/></r></p></e>
-<e>       <p><l>produsir<s n="vblex"/></l>             <r>produir<s n="vblex"/></r></p></e>
+<e alt="oci"><p><l>produire<s n="vblex"/></l>          <r>produir<s n="vblex"/></r></p></e>
+<e alt="oci@aran"><p><l>produsir<s n="vblex"/></l>     <r>produir<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>prodúser<s n="vblex"/></l>             <r>produir<s n="vblex"/></r></p></e>
 <e>       <p><l>protegir<s n="vblex"/></l>             <r>protegir<s n="vblex"/></r></p></e>
 <e>       <p><l>quèir<s n="vblex"/></l>                <r>caure<s n="vblex"/></r></p></e>
@@ -2745,8 +2746,8 @@
 <e alt="oci@aran"><p><l>dar<g><b/>era<b/>popa</g><s n="vblex"/></l><r>donar<g><b/>el<b/>pit</g><s n="vblex"/></r></p></e>
 <e r="LR" alt="oci@aran"><p><l>donar<g><b/>la<b/>popa</g><s n="vblex"/></l><r>donar<g><b/>el<b/>pit</g><s n="vblex"/></r></p></e>
 <e alt="oci"><p><l>donar<g><b/>la<b/>popa</g><s n="vblex"/></l><r>donar<g><b/>el<b/>pit</g><s n="vblex"/></r></p></e>
-<e r="LR" alt="oci"><p><l>har<g><b/>conéisser</g><s n="vblex"/></l><r>donar<g><b/>a<b/>conèixer</g><s n="vblex"/></r></p></e>
-<e alt="oci@aran"><p><l>har<g><b/>conéisser</g><s n="vblex"/></l><r>donar<g><b/>a<b/>conèixer</g><s n="vblex"/></r></p></e>
+<e r="LR" alt="oci"><p><l>har<g><b/>conéisher</g><s n="vblex"/></l><r>donar<g><b/>a<b/>conèixer</g><s n="vblex"/></r></p></e>
+<e alt="oci@aran"><p><l>har<g><b/>conéisher</g><s n="vblex"/></l><r>donar<g><b/>a<b/>conèixer</g><s n="vblex"/></r></p></e>
 <e r="LR" alt="oci@aran"><p><l>far<g><b/>conéisser</g><s n="vblex"/></l><r>donar<g><b/>a<b/>conèixer</g><s n="vblex"/></r></p></e>
 <e alt="oci"><p><l>far<g><b/>conéisser</g><s n="vblex"/></l><r>donar<g><b/>a<b/>conèixer</g><s n="vblex"/></r></p></e>
 <e>       <p><l>mandar<s n="vblex"/></l>               <r>fer<g><b/>arribar</g><s n="vblex"/></r></p></e>
@@ -9861,8 +9862,8 @@
 <e r="LR"><p><l>abreujar<s n="vblex"/></l>             <r>abreujar<s n="vblex"/></r></p></e>
 <e>       <p><l>abusar<s n="vblex"/></l>               <r>abusar<s n="vblex"/></r></p></e>
 <e>       <p><l>acaçar<s n="vblex"/></l>               <r>acaçar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>acondicionar<s n="vblex"/></l>         <r>acondicionar<s n="vblex"/></r></p></e>
-<e>       <p><l>condicionar<s n="vblex"/></l>          <r>acondicionar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>acondicionar<s n="vblex"/></l>         <r>condicionar<s n="vblex"/></r></p></e>
+<e>       <p><l>condicionar<s n="vblex"/></l>          <r>condicionar<s n="vblex"/></r></p></e>
 <e>       <p><l>ajustar<s n="vblex"/></l>              <r>ajustar<s n="vblex"/></r></p></e>
 <e>       <p><l>alongar<s n="vblex"/></l>              <r>allargar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>abandoar<s n="vblex"/></l>             <r>abandonar<s n="vblex"/></r></p></e>
@@ -15967,8 +15968,10 @@
 <e r="LR"><p><l>entremièg<s n="adv"/></l>              <r>entremig<s n="adv"/></r></p></e>
 <e r="RL" alt="oci@aran"><p><l>arténher<s n="vblex"/></l><r>assolir<s n="vblex"/></r></p></e>
 <e r="RL" alt="oci"><p><l>aténher<s n="vblex"/></l>    <r>assolir<s n="vblex"/></r></p></e>
-<e r="RL"><p><l>flagelar<s n="vblex"/></l>             <r>assotar<s n="vblex"/></r></p></e>
-<e>       <p><l>flagelar<s n="vblex"/></l>             <r>flagelar<s n="vblex"/></r></p></e>
+<e r="RL" alt="oci"><p><l>flagellar<s n="vblex"/></l>  <r>assotar<s n="vblex"/></r></p></e>
+<e r="RL" alt="oci@aran"><p><l>flagelar<s n="vblex"/></l><r>assotar<s n="vblex"/></r></p></e>
+<e alt="oci"><p><l>flagellar<s n="vblex"/></l>         <r>flagel·lar<s n="vblex"/></r></p></e>
+<e alt="oci@aran"><p><l>flagelar<s n="vblex"/></l>     <r>flagel·lar<s n="vblex"/></r></p></e>
 <e>       <p><l>atacar<s n="vblex"/></l>               <r>atacar<s n="vblex"/></r></p></e>
 <e>       <p><l>atrapar<s n="vblex"/></l>              <r>atrapar<s n="vblex"/></r></p></e>
 <e>       <p><l>avergonhir<s n="vblex"/></l>           <r>avergonyir<s n="vblex"/></r></p></e>
@@ -18827,8 +18830,10 @@
 <e r="RL" a="carmentano"><p><l>sensible<s n="adj"/><s n="GD"/></l><r>sensible<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR" a="carmentano"><p><l>sensible<s n="adj"/><s n="m"/></l><r>sensible<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR" a="carmentano"><p><l>sensible<s n="adj"/><s n="f"/></l><r>sensible<s n="adj"/><s n="mf"/></r></p></e>
-<e a="carmentano"><p><l>soniar<s n="vblex"/></l>       <r>somiar<s n="vblex"/></r></p></e>
-<e r="RL" a="carmentano"><p><l>soniar<s n="vblex"/></l><r>somniar<s n="vblex"/></r></p></e>
+<e a="carmentano" alt="oci"><p><l>sonhar<s n="vblex"/></l><r>somiar<s n="vblex"/></r></p></e>
+<e a="carmentano" alt="oci@aran"><p><l>soniar<s n="vblex"/></l><r>somiar<s n="vblex"/></r></p></e>
+<e r="RL" a="carmentano" alt="oci"><p><l>sonhar<s n="vblex"/></l><r>somniar<s n="vblex"/></r></p></e>
+<e r="RL" a="carmentano" alt="oci@aran"><p><l>soniar<s n="vblex"/></l><r>somniar<s n="vblex"/></r></p></e>
 <e a="carmentano"><p><l>realista<s n="adj"/></l>       <r>realista<s n="adj"/></r></p></e>
 <e r="RL" a="carmentano"><p><l>contingent<s n="adj"/><s n="GD"/></l><r>contingent<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR" a="carmentano"><p><l>contingent<s n="adj"/><s n="m"/></l><r>contingent<s n="adj"/><s n="mf"/></r></p></e>
@@ -21419,7 +21424,7 @@
 <e r="RL" a="carmentano"><p><l>diagnostic<s n="n"/><s n="m"/></l><r>diagnosi<s n="n"/><s n="f"/></r></p></e>
 <e a="carmentano"><p><l>intencionat<s n="adj"/></l>    <r>intencionat<s n="adj"/></r></p></e>
 <e a="carmentano"><p><l>segur<s n="adj"/></l>          <r>segur<s n="adj"/></r></p></e>
-<e a="carmentano"><p><l>encaishar<s n="vblex"/></l>    <r>escaixar<s n="vblex"/></r></p></e>
+<e a="carmentano"><p><l>encaishar<s n="vblex"/></l>    <r>encaixar<s n="vblex"/></r></p></e>
 <e r="RL" a="carmentano"><p><l>notable<s n="adj"/><s n="GD"/></l><r>notable<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR" a="carmentano"><p><l>notable<s n="adj"/><s n="m"/></l><r>notable<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR" a="carmentano"><p><l>notable<s n="adj"/><s n="f"/></l><r>notable<s n="adj"/><s n="mf"/></r></p></e>
@@ -21536,8 +21541,8 @@
 <e a=" mmonge"><p><l>Maccabi<s n="np"/></l>            <r>Maccabi<s n="np"/></r></p></e>
 <e a=" mmonge"><p><l>Kameni<s n="np"/></l>             <r>Kameni<s n="np"/></r></p></e>
 <e a=" mmonge"><p><l>Juventus<s n="np"/></l>           <r>Juventus<s n="np"/></r></p></e>
-<e a=" mmonge"><p><l>adusir<s n="vblex"/></l>          <r>adduir<s n="vblex"/></r></p></e>
-<e r="LR" a=" mmonge"><p><l>adúser<s n="vblex"/></l>   <r>adduir<s n="vblex"/></r></p></e>
+<e a=" mmonge" alt="oci@aran"><p><l>adusir<s n="vblex"/></l><r>adduir<s n="vblex"/></r></p></e>
+<e a=" mmonge" alt="oci"><p><l>adúser<s n="vblex"/></l><r>adduir<s n="vblex"/></r></p></e>
 <e r="LR" a=" mmonge" alt="oci"><p><l>sorrealista<s n="adj"/></l><r>surrealista<s n="adj"/></r></p></e>
 <e a=" mmonge" alt="oci@aran"><p><l>sorrealista<s n="adj"/></l><r>surrealista<s n="adj"/></r></p></e>
 <e r="LR" a=" mmonge" alt="oci@aran"><p><l>surrealista<s n="adj"/></l><r>surrealista<s n="adj"/></r></p></e>
